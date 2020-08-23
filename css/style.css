@@ -1,0 +1,46 @@
+body{padding-top: 20px;
+  font-family: sans-serif;
+  background-color: #b2beb5;
+}
+img{
+  position: absolute;
+  right: 20px;
+  top:120px;
+}
+
+h1{
+  font-size: 2rem;
+}
+h2{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+span{
+  display: inline-block;
+  margin: 40px;
+}
+.number{
+  color: #fff;
+}
+.submission{
+  margin: 20px;
+  text-align: center;
+
+
+}
+@media (max-width:800px) {
+textarea{
+  width: 300px;
+
+}
+.settings{
+  text-align: center;
+}
+.url{
+  width:200px;
+}
+img{
+  width: 50px;
+}
+}
